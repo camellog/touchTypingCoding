@@ -1,0 +1,624 @@
+body{
+  color: #000;
+}
+header{
+  background-color: rgba(0, 0, 0, .7);
+  height: 80px;
+  color:#fff;
+  font-size: 13px;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+nav{
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+}
+nav p{
+  display: inline-block;
+  height: 80px;
+}
+nav p:last-child{
+  margin-left: auto;
+}
+
+nav a{
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  line-height: 80px;
+  padding: 0 5px 0;
+}
+nav img{
+  margin-bottom: 20px;
+}
+.btn{
+  background: linear-gradient(45deg, deeppink, blue);
+  height: 40px;
+  width: 170px;
+  line-height: 40px;
+  margin: 20px;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 18px;
+}
+
+.firstcase{
+  padding-top: 80px;
+  background-image: url("../img/backgrand.png");
+  background-size: 100%;
+  height: 700px;
+  background-repeat: no-repeat;
+}w
+.container{
+  width: 80%;
+  margin: 0 auto;
+  font-size: 18px;
+}
+
+/* firstcase-case1 */
+.firstcase-case1{
+  margin-top: 170px;
+  font-weight: bold;
+  letter-spacing: 8px;
+  line-height: 30px;
+}
+.firstcase-case1 p, .ander{
+  text-align: center;
+}
+.firstcase-case1 h4{
+  font-size: 25px;
+  margin: 20px 0 60px;
+  text-align: center;
+
+}
+/* firstcase-case2 */
+.firstcase-case2{
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+}
+.firstcase-case2 p{
+  display: inline-block;
+}
+.ander{
+  margin-top: 100px;
+}
+
+/* secondcese */
+.secondcese{
+  background-color: #f5f5f5;
+  height: 350px;
+}
+.container2{
+  width: 62%;
+  height: 100%;
+  margin: 0 auto;
+}
+.container2 .small{
+  display: inline-block;
+  background-color: royalblue;
+  margin-top: 40px;
+  padding: 30px;
+}
+.secondtext{
+  margin-top: 25px;
+  font-size: 12px;
+  letter-spacing: 5px;
+  line-height: 25px;
+  color: #000;
+  font-weight: bold;
+}
+.secondtext span{
+  font-size: 18px;
+  text-decoration: underline blue;
+}
+
+
+/* thirdcese */
+.thirdcese{
+  background-color: #fffffc;
+  color: #000;
+  height: 550px;
+}
+.thirdcese-cese1{
+  text-align: center;
+}
+.thirdcese-cese1{
+  text-align: center;
+  position: relative;
+}
+.iconimages{
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  transform:translate(-50%, 0) ;
+  background-repeat: no-repeat;
+  height: 50px;
+  z-index: 99;
+}
+.thirdcese-cese1 h4{
+  font-size: 15px;
+  font-weight: bold;
+}
+.t-c1-area{
+  padding-top: 80px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+.t-c1-area h3{
+  font-size: 20px;
+}
+.thirdcese-area{
+  width: 85%;
+  margin: 0 auto;
+}
+
+.thirdcese-cese2{
+  display: flex;
+  justify-content: space-around;
+  font-size: 12px;
+}
+.imgs{
+  width: 320px;
+}
+
+.image-text1{
+  font-weight: bold;
+  margin: 10px 0 5px;
+  font-size: 15px;
+  color: #ff1493;
+}
+.image-text2{
+  line-height: 20px;
+}
+
+
+/* fourthcase */
+.fourthcase{
+  height: 540px;
+  color: #000;
+}
+.fourthcase-imagetop{
+  width: 100%;
+  height: 540px;
+  background-image: url("../img/fourthcase-image5.jpg") ;
+  background-size: cover;
+  opacity: .3;
+  position: absolute;
+}
+.fourthcase .container{
+  text-align: center;
+}
+.fourthcase-cese2{
+  padding-top: 70px;
+  letter-spacing: 5px;
+}
+.fourthcase-cese2-title{
+  margin-bottom: 30px;
+}
+.fourthcase-cese2-title h3{
+  font-size: 25px;
+  line-height: 40px;
+}
+.fourthcase-cese2-text{
+  line-height: 30px;
+  font-size: 12px;
+  margin-bottom: 25px;
+}
+.fourthcase-case3{
+  width: 600px;
+  margin: 0 auto;
+  padding: 15px 26px 15px 26px;
+  text-align: left;
+  font-size: 16px;
+  font-weight: bold;
+  border: solid 2px blue;
+  border-radius: 5px;
+  line-height: 30px;
+}
+.fourthcase-bottomtext{
+  margin-top: 35px;
+  font-size: 12px;
+  letter-spacing: 3px;
+}
+
+.fifthcase{
+  color: #000;
+  height: 670px;
+}
+.fifthcase-case1{
+  text-align: center;
+  margin-bottom: 15px;
+}
+.fifthcase-case1 h3{
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.fifthcase-case1 p{
+  font-size: 12px;
+  letter-spacing: 2px;
+  line-height: 20px;
+}
+table{
+  margin: 0 auto 20px;
+  font-size: 14px;
+}
+
+
+th, td{
+  height: 50px;
+  width: 130px;
+  text-align: center;
+  margin: 2px;
+  border: solid 1px blue;
+  border-radius: 5px;
+}
+.level{
+  display: inline-block;
+}
+.levhei{
+  height: 30px;
+  line-height: 30px;
+
+}
+
+.text{
+  width: 270px;
+  display: inline-block;
+
+}
+.texhei{
+  height: 30px;
+}
+.problem{
+  width: 220px;
+  display: inline-block;
+}
+.prohei{
+  height: 30px;
+}
+.money{
+  width: 180px;
+}
+.fifthcase-case3{
+  text-align: center;
+  font-size: 12px;
+}
+.fc3-text{
+  margin-bottom: 20px;
+}
+.fifthcase-case3 small{
+  display: block;
+}
+.fc3-small{
+  margin-bottom: 25px;
+}
+.fifthcase-case3 p{
+  font-size: 15px;
+}
+.fifthcase-case3 a{
+  padding: 15px 70px;
+  border-radius: 50px;
+  color: #fff;
+}
+
+
+.sixthcase{
+  background-color: blue;
+  height: 430px;
+  text-align: center;
+  color: #fff;
+}
+.sixthcase .container h3{
+  padding-top: 80px;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+.sixthcaseContainer{
+  width: 70%;
+  margin: 30px auto 0;
+}
+.imags{
+  display: flex;
+  font-size: 14px;
+  justify-content: space-around;
+}
+.imag1,.imag2,.imag3,.imag4{
+  width: 200px;
+}
+.imag1 img,.imag2 img,.imag3 img,.imag4 img{
+  border-radius: 10px;
+  margin: 0 auto;
+  display: inline-block;
+}
+.imags h5, .imags p{
+  text-align: left
+}
+
+.seventhcasecontianer{
+  padding-top: 70px;
+}
+.sevenh3{
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 5px;
+  text-align: center;
+}
+.sevenh3 h3{
+  margin-top: 10px;
+}
+.sc-flexarea{
+  display: flex;
+  justify-content: center;
+}
+.flex-2{
+  background-color: #ff0a84;
+  width: 500px;
+  height: 360px;
+  padding: 50px;
+  color: #fff;
+  margin-bottom: 50px;
+}
+.flex-2 h3{
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: bold;
+}
+.flex-2 p{
+  font-size: 12px;
+  line-height: 25px;
+}
+.youtubeVideo{
+  margin: 0 auto;
+  width: 600px;
+  height: 350px;
+}
+.btngloup{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.btngloup .btn{
+  background-color: red;
+  padding: 15px 50px;
+  border-radius: 50px;
+  color: #fff;
+}
+.seventhcase-case2{
+  background-image: url("../img/backgrand4.png");
+  background-size: cover;
+  height: 330px;
+  color: #fff;
+  text-align: center;
+}
+.seventhcase-case2 h3{
+  font-weight: bold;
+  padding: 40px 0;
+  font-size: 18px;
+  letter-spacing: 5px;
+  line-height: 25px;
+}
+.seventhcase-case2 p{
+  font-size: 12px;
+  line-height: 25px;
+}
+.eighth{
+  text-align: center;
+  height: 610px;
+
+}
+.eighth h3{
+  padding-top: 80px;
+  padding-bottom: 40px;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+.eighth-case1{
+  display: flex;
+  justify-content: space-evenly;
+  width: 70%;
+  margin: 0 auto;
+}
+.eighth-case1-flex, .eighth-case2-flex{
+  width: 45%;
+  height: 350px;
+  border: solid 1px;
+  position: relative;
+}
+.centerimg{
+  position: absolute;
+  top:-40px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.eighth-case1-flex, .eighth-case2-flex{
+  width: 45%;
+  height: 350px;
+  border: solid 1px
+}
+.ecf-name{
+  padding-top: 50px;
+  margin-bottom: 5px;
+}
+.ecf-name span{
+  font-weight: bold;
+  font-size: 20px;
+}
+.sex{
+  margin-bottom: 20px;
+}
+.eighth-case1-flex h5, .eighth-case2-flex h5{
+  height: 50px;
+  line-height: 50px;
+  color: #fff;
+}
+.eighth-case1-flex h5{
+  background-color: pink;
+}
+.eighth-case2-flex h5{
+  background-color: blue;
+}
+.eighth-case1-flex{
+  border: solid 2px pink;
+}
+.eighth-case2-flex{
+  border: solid 2px blue;
+}
+.ecf-text{
+  font-size: 12px;
+  text-align: left;
+  padding: 20px 30px;
+  letter-spacing: 2px;
+  line-height: 20px;
+
+}
+.ninthcase{
+  background-color: #d3d3d3;
+  height: 730px;
+}
+.ninthcase h3{
+  padding-top: 80px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+.ninthcasecontainer{
+  width: 60%;
+  margin: 0 auto;
+}
+.ninthcasecontainer h4{
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+.ninthcasecontainer h4 span{
+  color: #ff1493;
+}
+.case1-area{
+  background-color: #fff;
+  font-size: 14px;
+  padding: 20px 20px;
+  height: 100px;
+  line-height: 20px;
+  margin-bottom: 50px;
+}
+.tenthcase{
+  height: 450px;
+  text-align: center;
+}
+.tenshimgs{
+  width: 100%;
+  height: 540px;
+  background-image: url("../img/backgrand11.png") ;
+  background-size: cover;
+  opacity: .3;
+  position: absolute;
+}
+.tenthcase h4{
+  font-weight: bold;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  letter-spacing: 5px;
+}
+.tencontainer{
+  line-height: 40px;
+  font-size: 12px;
+}
+.tenthflex{
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  margin-top: 50px;
+  transform: translate(-50%, 0);
+  width: 70%;
+}
+.tenthcase-case1,.tenthcase-case2,.tenthcase-case3{
+  background-color: #f5f5dc;
+  width: 31%;
+  height: 150px;
+  border-radius: 10px;
+}
+.tenthcategory{
+  font-size: 20px;
+  padding: 10px;
+}
+.tenthflex select{
+  border: solid 1px;
+  display: block;
+  margin:  auto;
+  background-color: #fff;
+}
+.tenthflex .btn{
+  margin: 20px auto;
+}
+
+.tenthcase small{
+  margin-top: 300px;
+  display: inline-block;
+  font-weight: bold;
+}
+.eleventhcase{
+  margin-top: 90px;
+  height: 400px;
+}
+.eleventhcase-case1{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 60px;
+}
+.case1-right{
+  width: 400px;
+}
+.case1-left h3{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.scrollarea{
+  overflow: scroll;
+  height: 300px;
+  width: 700px;
+  border: solid 2px;
+}
+.left-case1{
+  border-bottom: solid 2px;
+  margin-bottom: 20px;
+}
+.eleventhcase p{
+  display: block;
+  text-align: center;
+  padding: 5px 5px;
+}
+.eleventhcase a{
+  display: inline-block;
+  text-align: center;
+  padding: 0 5px;
+}
+
+footer{
+  text-align: center;
+  height: 50px;
+}
+
+footer small{
+  display: block;
+  background-color: #000;
+  color: #fff;
+  margin-top: 60px;
+  height: 50px;
+  line-height: 50px;
+}
